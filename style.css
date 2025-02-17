@@ -1,0 +1,49 @@
+/* code for textbox to heading */
+
+/* /* #txt-box
+{
+    background-color: rgb(59, 85, 85);
+    color: aliceblue;
+    font-style: italic;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 50px; 
+} */
+ 
+
+
+body{
+    padding: 25px;
+    background-color: white;
+    color: black; 
+    font-size: 25px;
+}
+
+.Dark-mode {
+    background-color: black;
+    color: white; 
+}
+button{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px dashed rgb(2, 2, 2);
+    
+}
+button:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    cursor: pointer;
+}
+.Dark-mode button{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-shadow: 2px 2px rgb(12, 10, 10);
+}
