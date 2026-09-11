@@ -1,3 +1,4 @@
+# making a function to print the devider for each chapter for better understanding of the code
 def devider(name , chapter):
     length = f"{name} is reading program {chapter}"
     print("\n")
@@ -5,6 +6,8 @@ def devider(name , chapter):
     print("=" * len(length))
 
 
+
+# first chapter of python
 devider("Python", 1)
 def add(a, b):
     return a + b
@@ -14,6 +17,8 @@ print(add(10,40) * 2)
 print(add(10,70) + 100)
 
 
+
+# second chapter of python
 devider("Python", 2)
 
 def sub(a, b):
@@ -23,6 +28,8 @@ result = sub(30, 20)
 print(result)
 
 
+
+# third chapter of python
 devider("Python", 3)
 
 j = int(input("Enter a number: "))
@@ -30,3 +37,7 @@ print("\n")
 for i in range(1, 11, 1):
     k = f"{j} * {i} ="
     print(k , j * i)
+
+
+
+

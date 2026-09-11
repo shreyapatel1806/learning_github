@@ -1,10 +1,14 @@
-# def add(a, b):
-#     return a + b
 
-# result = add(10, 20)
-# print(result)
+def add(a, b):
+    return a + b
+
+print(add(10,20))
 
 
-age = 25
 
-print( age + 5)
+
+
+def add(a, b):
+    return a + b
+result = add(10, 20)
+print(result)
