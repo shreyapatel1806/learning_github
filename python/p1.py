@@ -39,5 +39,12 @@ for i in range(1, 11, 1):
     print(k , j * i)
 
 
-
-
+# fourth chapter of python
+devider("Python", 4)
+i = 1
+p = int(input("Enter a number: "))
+print("\n")
+while i < 11:
+    product = p * i
+    print(f"{p} * {i} = {product}")
+    i += 1
