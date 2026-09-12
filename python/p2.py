@@ -59,3 +59,29 @@ elif age < 120:
         print("Valid age")
 else:
         print("Age cannot be greater than 120")
+
+
+
+
+
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+logging.info("Order processing started")
+logging.warning("Payment delayed")
+logging.error("Payment failed")
+
+
+
+
+
+
+import json
+
+with open("config.json", "r") as file:
+    config = json.load(file)
+
+print(config["app"]["name"])
+print(config["server"]["host"])
+print(config["server"]["port"])
