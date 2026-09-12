@@ -1,0 +1,9 @@
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+set the path in environment
+environments variables
+go in sytemvariables
+click path
+edit
+new
+paste the link path there than ok ok ok
