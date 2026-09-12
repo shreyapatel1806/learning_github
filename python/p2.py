@@ -77,11 +77,3 @@ logging.error("Payment failed")
 
 
 
-import json
-
-with open("config.json", "r") as file:
-    config = json.load(file)
-
-print(config["app"]["name"])
-print(config["server"]["host"])
-print(config["server"]["port"])
